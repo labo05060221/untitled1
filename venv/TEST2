@@ -1,0 +1,20 @@
+# OOP -Python 面向对象
+""" 描述
+ 定义一个学生类
+"""
+class Student():
+    pass
+
+ming_yue=Student()
+
+class PythonStudent:
+    name = None
+    age = 18
+    course = 'Python'
+
+    def doHomeWork(self):
+        print("在做作业")
+        return None
+yue_yue = PythonStudent()
+yue_yue.doHomeWork()
+
